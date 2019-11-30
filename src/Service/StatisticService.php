@@ -71,6 +71,11 @@ class statisticService
         return $collection;
     }
 
+    /**
+     * Calculate statistics
+     *
+     * @return array
+     */
     public function getStatistic()
     {
         $result_array = [];
@@ -109,11 +114,17 @@ class statisticService
         return $result_array;
     }
 
+    /**
+     * @return int
+     */
     public function getTotalCalls()
     {
         return $this->total_calls;
     }
 
+    /**
+     * @return int
+     */
     public function getTotalDuration()
     {
         return $this->total_duration;

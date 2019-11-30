@@ -5,7 +5,6 @@ namespace App\Controller;
 
 
 use App\Controller;
-use App\Service\FileReaderCsv;
 use App\Service\statisticService;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -35,7 +34,6 @@ class StatisticController extends Controller
             $total_duration = $statisticService->getTotalDuration();
         }
 
-//        dd($array_statistics);
         $view = $this->render( 'upload', [
             'statistics' => $array_statistics,
             'total_calls' => $total_calls,

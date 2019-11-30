@@ -4,9 +4,6 @@
 namespace App\Entity;
 
 
-use App\Service\CountryInfoService;
-use App\Service\IpstackService;
-
 class DataCsv
 {
     /**
