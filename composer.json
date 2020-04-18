@@ -8,9 +8,9 @@
     ],
     "require": {
         "php":"^7.1",
-        "twbs/bootstrap": "^4.3",
-        "symfony/routing": "^5.0",
-        "symfony/http-foundation": "^5.0",
+        "twbs/bootstrap": "^4.4.1",
+        "symfony/routing": "^5.0.7",
+        "symfony/http-foundation": "^5.0.7",
         "ext-json": "*"
     },
     "autoload": {
@@ -19,6 +19,6 @@
         }
     },
     "require-dev": {
-        "symfony/var-dumper": "^5.0"
+        "symfony/var-dumper": "^5.0.7"
     }
 }
